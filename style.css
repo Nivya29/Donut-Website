@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+
+}
+#navbar{
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    background: black;
+   
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+#navbarSupportedContent a{
+    color: black;
+    border-bottom: 2px solid transparent;
+    
+}
+#navbarSupportedContent a:hover{
+    border-bottom:2px solid black;
+    
+}
+#navbarSupportedContent button{
+   background-color: rgb(3, 194, 3);
+   border-radius: 5px;
+   box-shadow: 1px 1px 1px black;
+   color: black;
+}
+section{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.9)), url(donuts.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 897;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 0px 1px 0px white,
+                 0px 1px 0px white,
+                 0px 1px 0px white
+                 0px 1px 0px white,
+                 0px 1px 0px white,
+                 0px 1px 0px white;
+    
+}
+#home p{
+    color: white;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+#home .input-group{
+ width:25%;
+ height: 45px;
+}
+.signin{
+    background-color:rgb(0, 161, 0)!important;
+    color:black;
+    height: 45px;
+}
+#about h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.container-fluid {
+    margin-top: 30px; 
+}
+#menu h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+#menu img{
+    width:300px;
+    height:300px;
+}
+.card{
+    width:300px;
+    height:430px;
+    background-color: white;
+    border: none !important;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.6),
+                inset 6px 6px 10px white;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin:20px 60px;
+}
+.card:hover{
+    box-shadow: inset 6px 6px 10px white,
+                inset -1px -2px 3px rgba(0,0,0,.6);
+    transition: .2s;
+}
+#menu .btn{
+    background-color: green;
+    border: 0px solid black;
+
+}
+#contact .btn{
+    background-color: green;
+    border: 0px solid black;
+}
+#contact img{
+height:410px;
+width:430px;
+border-radius: 7px;
+box-shadow: 5px 5px 5px rgba(0,0,0,.6);
+}
+.box{
+    width:80% !important;
+    margin-top: 10px;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin:15px 0px;
+}
+#contact textarea{
+    margin:15px 0px;
+}
+#contact h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+#contact{
+    margin-top: 45px;
+}
